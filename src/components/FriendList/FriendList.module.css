@@ -1,0 +1,53 @@
+.conteiner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  max-height: 900px;
+  max-width: 900px;
+}
+
+.friendList {
+  gap: 30px;
+  background-color: grey;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-self: center;
+  margin-bottom: 30px;
+  border: darkgrey solid 1px
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+
+}
+
+.green {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+}
+
+.text {
+  font-size: 30px;
+  align-items: center;
+}

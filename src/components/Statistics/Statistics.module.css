@@ -1,0 +1,39 @@
+.conteiner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.statistics {
+  gap: 30px;
+  background-color: darkgrey;
+}
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 37, 36);
+  width: 80px;
+  height: 80px;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+.span {
+  color: grey;
+  font-size: 14px;
+}

@@ -1,0 +1,32 @@
+.conteiner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.transactionHistory {
+  background-color: antiquewhite;
+}
+
+.header {
+  background-color: antiquewhite;
+}
+td,
+th {
+  text-align: center;
+  padding: 20px;
+}
+
+.table {
+  background-color: orange;
+}
+.table:nth-child(even) {
+  background-color: darkgrey;
+}
+.head {
+  background-color: red;
+}

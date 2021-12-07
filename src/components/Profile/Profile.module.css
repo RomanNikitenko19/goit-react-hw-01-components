@@ -1,0 +1,52 @@
+.contaiinerImg {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+.profile {
+  gap: 30px;
+  background-color: antiquewhite;
+}
+.conteiner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  min-width: 300px;
+  max-width: 300px;
+}
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 37, 36);
+  width: 80px;
+  height: 80px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1px;
+}
+.span {
+  color: grey;
+  font-size: 14px;
+}
+.name,
+.tag,
+.location {
+  gap: 10px;
+}
